@@ -1,0 +1,108 @@
+*{
+            margin: 0;
+            padding: 0;
+            font-family: "TikTok Sans", sans-serif;
+        }
+        body{
+            height: 110%;
+            width:100%;
+            background-image: url("Media/banner.jpg");
+            background-size: cover;
+           
+        }
+        .container{
+            background-color: rgba(0, 0, 0, 0.7);
+            height: 100%;
+            width:100%;
+            max-width: 100% ;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width:75%;
+            padding: 20px;
+            margin: 0 auto;
+            height: 80px;
+        }
+        .img-div img{
+            height:40px;
+            width:168px;
+        }
+        #language{
+            height: 40px;
+            width:130px;
+            background: transparent;
+            padding: 5px 5px;
+            border: none;
+            font-size: 16px;
+            color: white;
+            border: 1px solid rgb(175, 173, 173);
+            border-radius: 5px;
+            box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 3px;
+        }
+        #language i{
+            padding: 5px;
+        }
+        #Sign{
+            background-color: #E50914;
+            border: none;
+            padding:6px 13px;
+            font-size: 15px;
+            font-weight: 600;
+            color:white;
+            border-radius:5px;
+        }
+        .button-div{
+            display: flex;
+            flex-direction: row;
+            gap:10px;
+        }
+        section .mid{
+            color:white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            height: 470px;
+            text-align: center;
+            margin: 0 auto;
+            gap:10px;
+        }
+        main section h1{
+            font-size: 50px;
+
+        }
+        #para{
+            font-size: 20px;
+            margin-top:30px;;
+        }
+        .end{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap:10px;
+        }
+        .end input{
+            width:366px;
+            height: 56px;
+            background-color: rgba(20, 16, 16, 0.815);
+            border: 1px solid rgb(134, 134, 134);
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+        .end input::placeholder{
+            font-size: 18px;
+            color:grey;
+            font-weight: 600;
+        }
+        #get{
+            height: 56px;
+            width: 213px;
+            background-color:#E50914;
+            border: none;
+            border-radius: 5px;
+            color:white;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
